@@ -1,0 +1,23 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: |-
+      package main
+      
+      import "tft" // Something's wrong here...
+      
+      func main() {
+          // You need to ask for help with the words:
+          // "Ahh Help" - twice each starts from the new line.
+          tft.Println("Ahh Help")
+          fmt.Frintln("Ahh Help")
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23450#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 27 Mar 2024 18:47:53 UTC"
+record: -1
+submission_language: go
